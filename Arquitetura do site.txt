@@ -1,0 +1,33 @@
+Arquitetura do Site
+
+Home - Sobre, categorias, cards com temas em alta, informações para o usuário e cadastro
+> Arquitetura
+>> Cards do problema e solução do cidadão com o seu nome e região adm, status do card pela equipe, busca por palavras-chave e data da publicação  
+
+> Segurança
+>> Cards do problema e solução do cidadão com o seu nome e região adm, status do card pela equipe, busca por palavras-chave e data da publicação  
+
+> Mobilidade
+>> Cards do problema e solução do cidadão com o seu nome e região adm, status do card pela equipe, busca por palavras-chave e data da publicação  
+
+> Cultura
+>> Cards do problema e solução do cidadão com o seu nome e região adm, status do card pela equipe, busca por palavras-chave e data da publicação  
+
+> Educação
+>> Cards do problema e solução do cidadão com o seu nome e região adm, status do card pela equipe, busca por palavras-chave e data da publicação  
+
+> Sustentabilidade
+>> Cards do problema e solução do cidadão com o seu nome e região adm, status do card pela equipe, busca por palavras-chave e data da publicação  
+
+> Saúde
+>> Cards do problema e solução do cidadão com o seu nome e região adm, status do card pela equipe, busca por palavras-chave e data da publicação  
+
+* Novidades - atualizações sobre o fórum e a equipe.
+
+* Blog - atualizações sobre o desenvolvimento do site (tipo devlog)
+
+* FAQ - Perguntas e respostas sobre o fórum com as regras
+
+* Apoie - apoio em pix (ou qualquer outro meio de pagamento)
+
+* Contato - email da equipe
