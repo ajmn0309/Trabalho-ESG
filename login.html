@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Conecta ESG</title>
+    
+    <!-- INÍCIO DO CSS (Estilos da página) -->
+    <style>
+        /* Cores e configurações gerais do site */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Caixa central do formulário de login */
+        .login-box {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        /* Estilo da logo / imagem opcional */
+        .login-box img {
+            width: 60px;
+            margin-bottom: 10px;
+        }
+
+        .login-box h1 {
+            color: #2d6a4f;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        /* Organização dos campos do formulário */
+        .campo {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+        .campo label {
+            display: block;
+            font-size: 14px;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .campo input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box; /* Garante que o input não ultrapasse a caixa */
+        }
+
+        /* Botão principal de entrar */
+        .btn-entrar {
+            width: 100%;
+            padding: 10px;
+            background-color: #2d6a4f;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .btn-entrar:hover {
+            background-color: #1b4332;
+        }
+
+        /* Links para ir para as páginas de cadastro */
+        .links-uteis {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        .links-uteis a {
+            color: #2d6a4f;
+            text-decoration: none;
+            display: block;
+            margin-top: 5px;
+        }
+
+        .links-uteis a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <!-- FIM DO CSS -->
+</head>
+<body>
+
+    <!-- CAIXA PRINCIPAL DO LOGIN -->
+    <div class="login-box">
+        
+        <!-- Exemplo de uso da pasta img (Certifique-se de colocar uma imagem chamada logo.png na pasta img) -->
+        <img src="img/logo.png" alt="Logo Conecta ESG" onerror="this.style.display='none'">
+        
+        <h1>Conecta ESG</h1>
+
+        <!-- Formulário de Acesso -->
+        <form>
+            <div class="campo">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="digite seu e-mail" required>
+            </div>
+
+            <div class="campo">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" placeholder="digite sua senha" required>
+            </div>
+
+            <!-- Botão que simula a entrada no sistema -->
+            <button type="submit" class="btn-entrar">Entrar</button>
+        </form>
+
+        <!-- Links de navegação para os cadastros que você vai criar -->
+        <div class="links-uteis">
+            <p>Não tem uma conta?</p>
+            <a href="cadastro-usuario.html">Cadastrar como Usuário (Comunidade)</a>
+            <a href="cadastro-empresa.html">Cadastrar como Empresa (ESG)</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
