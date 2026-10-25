@@ -1,0 +1,16 @@
+Sobre de cada categoria
+
+Arquitetura: Soluções sobre conservação, restauração, restruturação e construção de patrimônio privado.
+
+Segurança: Soluções sobre segurança privada.
+
+Mobilidade: Soluções sobre viagens de cidadãos na cidade.
+
+Sustentabilidade: Soluções sobre conservação e proteção do meio ambiente.
+
+Cultura: Soluções sobre eventos e atividades culturais.
+
+Educação: Soluções sobre educação privada.
+
+Saúde: Soluções sobre bem-estar.
+
